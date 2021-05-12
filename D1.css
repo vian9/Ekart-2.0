@@ -109,7 +109,7 @@
 }
 
 .nav2 .text:hover {
-    font-size: xx-large;
+    font-size: x20vw;
     color: white;
     background-color: black;
 }
@@ -153,12 +153,17 @@
     text-align: center;
 }
 
+.container {
+    display: flex;
+}
+
 .f {
     margin-top: 10px;
     margin-left: 16px;
     margin-right: 16px;
     padding: 10px;
-    width: 300px;
+    width: 22.5%;
+    object-fit: cover;
     height: 400px;
     background: url("veggies.png");
     background-repeat: no-repeat;
@@ -173,7 +178,8 @@
     margin-left: 16px;
     margin-right: 16px;
     padding: 10px;
-    width: 300px;
+    width: 22.5%;
+    object-fit: cover;
     height: 400px;
     background: url("fruits.png");
     background-repeat: no-repeat;
@@ -188,7 +194,8 @@
     margin-left: 16px;
     margin-right: 16px;
     padding: 10px;
-    width: 300px;
+    width: 22.5%;
+    object-fit: cover;
     height: 400px;
     background: url("sprouts.png");
     background-repeat: no-repeat;
@@ -203,7 +210,8 @@
     margin-left: 16px;
     margin-right: 16px;
     padding: 10px;
-    width: 300px;
+    width: 22.5%;
+    object-fit: cover;
     height: 400px;
     background: url("exotics.png");
     background-repeat: no-repeat;
@@ -214,12 +222,10 @@
 }
 
 .items {
-    float: left;
-    margin-top: 300px;
-    margin-left: 50px;
-    margin-right: 50px;
+    display: inline-block;
+    text-align: center;
     padding: 20px;
-    font-size: x-large;
+    font-size: 2vw;
     color: black;
     font-weight: 800;
     text-align: center;
@@ -228,7 +234,7 @@
 }
 
 .items:hover {
-    font-size: xx-large;
+    font-size: 2.5vw;
     color: black;
     background-color: white;
     opacity: 0.5;
@@ -254,11 +260,5 @@
     }
     .mid {
         font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .j {
-        display: block;
     }
 }
