@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: linear-gradient(rgba(210, 227, 247, 0), rgba(217, 212, 247, 1));
+}
+
 .nav1 {
     overflow: hidden;
     background-color: #330b7c;
@@ -88,16 +92,6 @@
     font-weight: bold;
 }
 
-.nav1 .a:hover {
-    background-color: rgb(214, 238, 77);
-    color: rgb(42, 10, 94);
-}
-
-.nav1 .links:hover {
-    background-color: rgb(214, 238, 77);
-    color: rgb(42, 10, 94);
-}
-
 .rightSection {
     float: right;
 }
@@ -106,12 +100,6 @@
     width: 100%;
     height: 500px;
     text-align: center;
-}
-
-.nav2 .text:hover {
-    font-size: x20vw;
-    color: white;
-    background-color: black;
 }
 
 .upper {
@@ -153,16 +141,46 @@
     text-align: center;
 }
 
+.mid1 {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: yellow;
+    color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mid2 {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: yellow;
+    color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mid3 {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: yellow;
+    color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
 .container {
     display: flex;
 }
 
 .f {
-    margin-top: 10px;
-    margin-left: 16px;
-    margin-right: 16px;
-    padding: 10px;
-    width: 100%;
+    margin: 10px;
+    width: 97%;
     height: 400px;
     background: url("veggies.png");
     background-repeat: no-repeat;
@@ -173,11 +191,8 @@
 }
 
 .g {
-    margin-top: 10px;
-    margin-left: 16px;
-    margin-right: 16px;
-    padding: 10px;
-    width: 100%;
+    margin: 10px;
+    width: 97%;
     height: 400px;
     background: url("fruits.png");
     background-repeat: no-repeat;
@@ -188,11 +203,8 @@
 }
 
 .h {
-    margin-top: 10px;
-    margin-left: 16px;
-    margin-right: 16px;
-    padding: 10px;
-    width: 100%;
+    margin: 10px;
+    width: 97%;
     height: 400px;
     background: url("sprouts.png");
     background-repeat: no-repeat;
@@ -203,11 +215,8 @@
 }
 
 .i {
-    margin-top: 10px;
-    margin-left: 16px;
-    margin-right: 16px;
-    padding: 10px;
-    width: 100%;
+    margin: 10px;
+    width: 97%;
     height: 400px;
     background: url("exotics.png");
     background-repeat: no-repeat;
@@ -224,7 +233,7 @@
     float: left;
     width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 12px;
     font-size: 2vw;
     color: black;
     font-weight: 800;
@@ -233,24 +242,18 @@
     opacity: 0.5;
 }
 
-.items:hover {
-    font-size: 2.5vw;
-    color: black;
-    background-color: rgb(197, 140, 133);
-    opacity: 0.5;
-}
-
-.a:hover .items {
-    visibility: visible;
-    opacity: 1;
-}
-
 @media screen and (max-width: 870px) {
     .container {
         display: block;
     }
     .j {
         height: 200px;
+    }
+    .items {
+        font-size: 3vw;
+    }
+    .items:hover {
+        font-size: 3.5vw;
     }
     .nav1 .a {
         float: none;
@@ -265,6 +268,43 @@
         float: none;
     }
     .mid {
-        font-size: 20px;
+        font-size: 30px;
     }
+    .mid1 {
+        margin-top: 890px;
+    }
+    .mid2 {
+        margin-top: 890px;
+    }
+    .mid3 {
+        margin-top: 890px;
+    }
+}
+
+.items:hover {
+    font-size: 2.5vw;
+    color: black;
+    background-color: rgb(197, 140, 133);
+    opacity: 0.5;
+}
+
+.a:hover .items {
+    visibility: visible;
+    opacity: 1;
+}
+
+.nav1 .a:hover {
+    background-color: rgb(214, 238, 77);
+    color: rgb(42, 10, 94);
+}
+
+.nav1 .links:hover {
+    background-color: rgb(214, 238, 77);
+    color: rgb(42, 10, 94);
+}
+
+.text:hover {
+    font-size: 3vw;
+    color: white;
+    background-color: black;
 }
