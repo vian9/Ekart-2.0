@@ -120,8 +120,8 @@ body {
 .main {
     background: url("HeadStart.png");
     background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
+    background-position: center center;
+    background-size: 100vw 78vh;
     opacity: 1;
     overflow: hidden;
     width: 100%;
@@ -278,6 +278,11 @@ body {
     }
     .mid3 {
         margin-top: 675px;
+    }
+    .text:hover {
+        font-size: 3vw;
+        color: white;
+        background-color: black;
     }
 }
 
