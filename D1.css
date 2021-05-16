@@ -4,6 +4,7 @@
 
 .z {
     width: 100%;
+    margin-right: 10px;
 }
 
 body {
@@ -126,7 +127,7 @@ body {
     background: url("HeadStart.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100vw 82vh;
+    background-size: 100vw 78vh;
     opacity: 1;
     overflow: hidden;
     width: 100%;
@@ -288,6 +289,10 @@ body {
         font-size: 3vw;
         color: white;
         background-color: black;
+    }
+    .z {
+        width: 97%;
+        margin-right: 0px;
     }
 }
 
