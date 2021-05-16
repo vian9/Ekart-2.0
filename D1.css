@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.z {
+    width: 100%;
+}
+
 body {
     background: linear-gradient(rgba(210, 227, 247, 0), rgba(217, 212, 247, 1));
 }
@@ -111,17 +115,18 @@ body {
     display: inline-block;
     margin-top: 200px;
     padding: 20px;
-    font-size: large;
+    font-size: 2vw;
     font-weight: 300;
     background-color: rgb(197, 140, 133);
     background-blend-mode: lighten;
+    opacity: 0.8;
 }
 
 .main {
     background: url("HeadStart.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100vw 78vh;
+    background-size: 100vw 82vh;
     opacity: 1;
     overflow: hidden;
     width: 100%;
